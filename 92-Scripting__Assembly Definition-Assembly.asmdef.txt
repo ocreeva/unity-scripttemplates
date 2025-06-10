@@ -1,0 +1,9 @@
+{
+    "name": "#SCRIPTNAME#",
+    "rootNamespace": "#SCRIPTNAME#",
+    "references": [
+        "GUID:800f99f6e3fd7664cabe8dd5ff21f7b1"
+    ],
+    "overrideReferences": true,
+    "autoReferenced": false
+}

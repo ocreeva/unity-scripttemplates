@@ -1,0 +1,10 @@
+using Moyba.Contracts;
+using UnityEngine;
+
+namespace #NAMESPACE#
+{
+    [CreateAssetMenu(fileName = "#FEATURE# Manager.asset", menuName = "Manager/#FEATURE#")]
+    public class #SCRIPTNAME# : AManager, I#SCRIPTNAME#
+    {
+    }
+}
