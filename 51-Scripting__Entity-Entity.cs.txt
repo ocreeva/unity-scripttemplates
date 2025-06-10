@@ -1,0 +1,9 @@
+using Moyba.Contracts;
+
+namespace #NAMESPACE#
+{
+    public class #SCRIPTNAME# : AnEntity<#FEATURE#Manager, #SCRIPTNAME#>, I#SCRIPTNAME#
+    {
+        public #SCRIPTNAME#() : base(_ => _.#COLLECTION#) { }
+    }
+}
