@@ -1,0 +1,12 @@
+using Moyba.#FEATURE#;
+using UnityEngine;
+
+namespace Moyba.Contracts
+{
+    public partial class Omnibus
+    {
+        [SerializeField, Require(typeof(I#FEATURE#Manager))] private Object _#FEATURE#;
+
+        public static I#FEATURE#Manager #FEATURE# { get; private set; }
+    }
+}
