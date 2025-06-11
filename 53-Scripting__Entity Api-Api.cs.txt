@@ -1,0 +1,9 @@
+using Moyba.Contracts;
+
+namespace #NAMESPACE#
+{
+    public class #SCRIPTNAME# : AnApi<#FEATURE#Manager, #ENTITY#, I#SCRIPTNAME#>, I#SCRIPTNAME#
+    {
+        public #SCRIPTNAME#() : base(_ => _.#API#) { }
+    }
+}
